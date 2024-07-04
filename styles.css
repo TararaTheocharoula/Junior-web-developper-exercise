@@ -30,7 +30,7 @@ h2 {
     text-align: left; /* Align text to the left */
     font-size: 32px; 
     font-weight: normal; /* Normal font weight */
-    text-shadow: 0 0 1px #1a73e8; 
+    text-shadow: 0 0 0px #61a5ff; 
 }
 
 /* Style the form group container */
@@ -41,9 +41,9 @@ h2 {
 
 /* Style the label element */
 .form-group label {
-    margin-bottom: 4px; /* Space below label */
+    margin-bottom: 8px; /* Space below label */
     font-size: 18px; /* Font size */
-    text-shadow: 0 0 1px #000000; /* Slight text shadow */
+    text-shadow: 0 0 0px #8f8f8f; /* Slight text shadow */
 }
 
 /* Style the input element */
@@ -52,6 +52,7 @@ h2 {
     font-size: 15px; 
     border: 1px solid #ccc;
     border-radius: 8px; 
+    
 }
 
 /* Style the error message */
