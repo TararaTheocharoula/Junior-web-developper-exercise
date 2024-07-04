@@ -1,79 +1,86 @@
 body {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    background-color: #f0f0f0;
-    font-family: "Times New Roman", Times, serif;
-    
-
+    justify-content: center; 
+    align-items: center; 
+    height: 100vh; /* Full viewport height */
+    background-color: #f0f0f0; 
+    font-family: "Times New Roman", Times, serif; /* Font-Style */
 }
+
 
 .container {
-    background: white;
-    padding: 20px;
-    border-radius: 12px;
-    border: 2px solid rgb(209, 209, 209);
-    width: 300px;
-    height: 200px;
+    background: white; 
+    padding: 20px 40px; /* Padding: 20px top/bottom, 40px left/right */
+    border-radius: 12px; 
+    border: 2px solid rgb(209, 209, 209); 
+    width: 300px; 
+    height: 200px; 
 }
 
-
+/* Style the form to be a column */
 form {
-    display: flex;
-    flex-direction: column;
+    display: flex; 
+    flex-direction: column; /* Stack children vertically */
 }
 
+/* Style the form heading */
 h2 {
     color: #1a73e8;
-    margin-bottom: 20px;
-    text-align: left;
-    font-size: 32px;
-    font-weight: normal;
-    text-shadow: 0 0 1px #1a73e8;
+    margin-bottom: 35px; /* Space below heading */
+    text-align: left; /* Align text to the left */
+    font-size: 32px; 
+    font-weight: normal; /* Normal font weight */
+    text-shadow: 0 0 1px #1a73e8; 
 }
 
+/* Style the form group container */
 .form-group {
     display: flex;
-    flex-direction: column;
+    flex-direction: column; /* Stack children vertically */
 }
 
+/* Style the label element */
 .form-group label {
-    margin-bottom: 5px;
-    font-size: 18px;
-    text-shadow: 0 0 1px #000000;
+    margin-bottom: 4px; /* Space below label */
+    font-size: 18px; /* Font size */
+    text-shadow: 0 0 1px #000000; /* Slight text shadow */
 }
 
+/* Style the input element */
 .form-group input {
-    padding: 3px 8px;
-    font-size: 15px;
+    padding: 3px 8px; /* Padding inside input field */
+    font-size: 15px; 
     border: 1px solid #ccc;
-    border-radius: 8px;
+    border-radius: 8px; 
 }
 
+/* Style the error message */
 #errorMessage {
-    color: red;
-    font-size: 14px;
-    visibility: hidden;
-    margin-bottom: 5px;
+    color: red; 
+    font-size: 14px; 
+    visibility: hidden; /* Initially hidden */
+    margin-bottom: 3px; /* Space below message */
 }
 
+/* Style the button group container */
 .button-group {
     display: flex;
-    justify-content: flex-end;
+    justify-content: flex-end; /* Align buttons to the right */
 }
 
+/* Style the button element */
 .button-group button {
-    padding: 3px 8px;
-    font-size: 14px;
+    padding: 3px 8px; /* Padding inside button */
+    font-size: 14px; 
     font-weight: bold;
-    color: #1a73e8;
-    background: white;
-    border: 2px solid #1a73e8;
-    border-radius: 8px;
-    cursor: pointer; 
+    color: #1a73e8; 
+    background: white; 
+    border: 2px solid #1a73e8; 
+    border-radius: 8px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
 }
 
+/* Style the button on hover */
 .button-group button:hover {
-    background-color: #f0f0f0;
+    background-color: #f0f0f0; 
 }
